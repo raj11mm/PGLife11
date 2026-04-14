@@ -1,17 +1,17 @@
 :root {
-    --bg-soft: #f5f7fb;
+    --bg-soft: #f3f9f7;
     --surface: #ffffff;
-    --text: #1f2937;
-    --muted: #6b7280;
-    --primary: #4f46e5;
-    --primary-dark: #4338ca;
-    --accent: #14b8a6;
-    --border: #e5e7eb;
-    --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+    --text: #1b2634;
+    --muted: #5f6d7a;
+    --primary: #0f766e;
+    --primary-dark: #115e59;
+    --accent: #f59e0b;
+    --border: #dbe7e3;
+    --shadow: 0 12px 30px rgba(10, 56, 63, 0.1);
 }
 
 body {
-    background: linear-gradient(180deg, #f7f8fc 0%, #eff3fb 100%);
+    background: linear-gradient(180deg, #f4fbfa 0%, #e9f5f2 100%);
     color: var(--text);
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .header .nav-link {
-    color: #374151 !important;
+    color: #1f3a49 !important;
     font-weight: 600;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .breadcrumb {
-    background: #eef1f7;
+    background: #e4efec;
 }
 
 .banner-container {
@@ -74,19 +74,19 @@ body {
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, #4338ca, #3730a3);
+    background: linear-gradient(135deg, #0b5f58, #134e4a);
 }
 
 .footer {
-    background: #111827;
+    background: #0f2a2b;
 }
 
 .footer-city a {
-    color: #dbeafe;
+    color: #d1fae5;
 }
 
 .footer-copyright {
-    color: #94a3b8;
+    color: #99f6e4;
 }
 
 .section-title {
@@ -97,8 +97,8 @@ body {
 }
 
 .section-title .chip {
-    background: #e0e7ff;
-    color: #3730a3;
+    background: #fef3c7;
+    color: #92400e;
     border-radius: 999px;
     padding: 6px 12px;
     font-size: 12px;
